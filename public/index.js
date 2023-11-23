@@ -1,0 +1,3 @@
+document.addEventListener('DOMContentLoaded', function() {
+  // do something here ...
+}, false);

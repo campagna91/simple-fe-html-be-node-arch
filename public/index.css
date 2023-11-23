@@ -1,0 +1,16 @@
+html,
+body,
+body>span {
+  height: 100vh;
+  width: 100vw;
+}
+
+body>span {
+  font-size: 2em;
+  text-shadow: 0dvh;
+  text-align: center;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
