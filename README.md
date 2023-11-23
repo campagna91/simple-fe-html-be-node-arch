@@ -1,4 +1,6 @@
-## SIMPLE NODE SERVER
+# SIMPLE NODE SERVER [![styled with esformatter](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-esformatter)
+
+> Sometimes you need to have a development environment where each modification must be re -proposed on all connected devices without wasting time to find the right configurations
 
 A simple server written in node.js useful for the rapid development of small web services.
 
@@ -11,15 +13,15 @@ It needs to have installed [Node.js](https://nodejs.org/en) onto your machine
 
 From the root project's directory run the command:
 
-```bash
-> npm install
+```
+ npm install
 ```
 
 ## Usage
 
 After that on the project run run the command: 
 
-```bash
+```
 npm run dev
 ```
 
@@ -27,10 +29,10 @@ This will start the server on the port specified in the file _index.js_ .
 
 ## IDE
 
-The project was tested using programming as a programming ideal [Visual Code Studio] (https://code.visualstudio.com/). The download and the use of the following Plugins is recommended:
+The project was tested using programming as a programming ideal [Visual Code Studio](https://code.visualstudio.com/). The download and the use of the following Plugins is recommended:
 
-1. (esformatter)[https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-esformatter]
-2. (Style formatter)[https://marketplace.visualstudio.com/items?itemName=dweber019.vscode-style-formatter]
+1. [esformatter](https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-esformatter)
+2. [Style formatter](https://marketplace.visualstudio.com/items?itemName=dweber019.vscode-style-formatter)
 
 ## Debug
 
@@ -40,7 +42,7 @@ In order to debug the server of your project, the file in the path
 
 provide 2 kinds of debugging types: 
 
-**Local**
+**1. Local**
 
 The configuration `Local Debug` allows to debug locally the server project. To start it, just select it from the dropdown menu in the `Run and Debug` side menu and press play. 
 
@@ -64,7 +66,7 @@ The configuration `Local Debug` allows to debug locally the server project. To s
 }
 ```
 
-**Remote**
+**2. Remote**
 
 The configuration `Remote Debug` allows to debug locally the server project. To start it, just select it from the dropdown menu in the `Run and Debug` side menu and press play. 
 
